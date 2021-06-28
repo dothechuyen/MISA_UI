@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Do The Chuyen</title>
+    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../css/layout/content.css" rel="stylesheet" />
+    
+    <link href="../css/layout/header.css" rel="stylesheet" />
+    <link href="../css/layout/navbar.css" rel="stylesheet" />
+    <link href="../css/page/customer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-box">
+            <div class="toggle"></div>
+            <div class="logo-page"></div>
+        </div>
+        <div class="navbar-content">
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-dashboard"> </div>
+                <div class="navbar-item-text">Tổng quan </div>
+            </a>
+
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-report"> </div>
+                <div class="navbar-item-text">Báo Cáo </div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-dic-employee"> </div>
+                <div class="navbar-item-text">Danh Sách Nhân Viên  </div>
+            </a>
+            <a class="navbar-item" href="#">
+                <div class="navbar-item-icon icon-setting"> </div>
+                <div class="navbar-item-text">Cài Đặt </div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="header">
+        <button class="btndrop">
+            <div class="btntext">Danh Sách Nhà Hàng</div>
+            <div class="icon-drop"></div>
+            
+        </button>
+        <div class="drop-cont">
+                <a href="#">Link1</a>
+                <a href="#">Link1</a>
+                <a href="#">Link1</a>
+            </div>
+        <div class="header-right">
+            <div class="user-name">
+                <div class="user-icon"></div>
+                <div>Đỗ Thế Chuyền</div>
+            </div>
+            <button class="user-option"></button>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">Danh Sách Khách Hàng</div>
+            <button  class="btn-icon btnAddCustomer">
+                <div class="add-icon1 icon-add"></div>
+                <div class="">Thêm Khách Hàng</div>
+            </button>
+        </div>
+        <div class="page-toolbar">
+            <input class="btnSearch" type="text" placeholder="Tìm kiếm theo Mã, Tên khách hàng"/>
+            <button class=" btnRefresh icon-refresh "></button>
+        </div>
+        <div class="grid">
+            <table width="100%" border="0">
+                <thead>
+                    <tr>
+                        <th>Mã Khách Hàng</th>
+                        <th>Họ Và Tên</th>
+                        <th>Giới Tính</th>
+                        <th>Ngày Sinh</th>
+                        <th>Nhóm Khác Hàng</th>
+                        <th>Điện Thoại</th>
+                        <th>Email</th>
+                        <th>Địa Chỉ</th>
+                        <th>Số Tiền Nợ</th>
+                        <th>Mã Thẻ Thành Viên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>KH0123</th>
+                        <th>Do The Chuyen</th>
+                        <th>Nam</th>
+                        <th>21/01/2000</th>
+                        <th>Khách Vip</th>
+                        <th>0868429405</th>
+                        <th>dtc@gmail.com</th>
+                        <th>Phú Thọ</th>
+                        <th>100000000</th>
+                        <th>TV125452</th>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+        <div class="table-paging">
+            <div class="paging-left">Hiển thị 1 - 10/1000 khách hàng</div>
+            <div class="paging-center">
+                <button class="paging-center paging paging1">1</button>
+                <button class="paging-center paging paging2">2</button>
+                <button class="paging-center paging paging3">3</button>
+                <button class="paging-center paging paging4">4</button>
+                <button class="paging-center icon-firstpage icon-firstpage1"></button>
+                <button class="paging-center icon-preppage"></button>
+                <button class="paging-center icon-nextpage"></button>
+                <button class="paging-center icon-lastpage"></button>
+            </div>
+            <div class=" paging-right">10 khách hàng / trang</div>
+
+        </div>
+
+    </div>
+    <div class="dialog">
+        <div class="modal"></div>
+        <div class="dialog-box">
+            <div class="dia-header">
+                <div class="text">THÔNG TIN KHÁCH HÀNG</div>
+                <button class="dia-header-x"></button>
+            </div>
+            <div class="dia-body">
+                <div class="body1">
+                    <div class="body1-1">
+                        <div class="img-kh"></div>
+                        <div class="body1-text">
+                            <div>Vui lòng chọn ảnh có định dạng</div>
+                            <div><strong>.jpg,.png,.jpeg,.gif.</strong></div>
+                        </div>
+                        
+                    </div>
+                    <div class="body1-2">
+                        <div>Mã khách hàng (*)</div>
+                        <input class="body2-input" type="text" />
+                        <div>Mã thẻ thành viên</div>
+                        <input class="body2-input" type="text" />
+                        <div>Ngày sinh</div>
+                        <input class=" body2-img body2-input" type="text" placeholder="mm/dd/yyyy" />
+
+                    </div>
+                    <div class="body1-2">
+                        <div>Họ và tên (*)</div>
+                        <input class="body2-input" type="text" />
+                        <div>Nhóm khách hàng</div>
+                        
+                            <input class="body2-input" type="text" />
+                            <button class="asd"></button>
+                        <div>Giới tính</div>
+                        <div class="check">
+                            <div class="radio1"></div>
+                            <div class="sex">Nam</div>
+                       
+                            <div class="radio2"></div>
+                            <div class="sex">Nữ</div>
+                       
+                            <div class="radio"></div>
+                            <div class="sex">Khác</div>
+                        </div>
+                </div>
+                <div class="body2"></div>
+            </div>
+            <div class="dia-bottom">
+                <button class="btn1">Hủy</button>
+                <button class="btn2">
+                    <div class="icon-save"></div>
+                    <div class="text1">Lưu</div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

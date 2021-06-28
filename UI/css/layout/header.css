@@ -1,0 +1,110 @@
+.header{
+    position: absolute;
+    left:226px;
+    display: inline-block;
+    top:0;
+    height:48px;
+    width: calc(100% - 227px);
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+    .header .btndrop {
+        outline:none;
+        top: 4.5px;
+        height: 40px;
+        font-size: 13px;
+        color: #000;
+        border: none;
+        display: flex;
+        border-radius: 4px;
+        background-color: white;
+        font-family: 'GoogleSans-Bold';
+        position: absolute;
+        cursor: pointer;
+    } 
+    .header .btndrop .btntext{
+        padding-left: 24px;
+        line-height: 40px;
+    }
+        .header .btndrop .icon-drop {
+            background-image: url('../../content/icon/setting.png');
+            background-repeat:no-repeat;
+            height: 20px;
+            width: 20px;
+            background-size:contain;
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-top: 10px;
+            line-height: 40px;
+        }
+    .header .btndrop:hover{
+        background-color:#ccc;
+    }
+    .header .btndrop:active{
+        background-color:#019160;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop-cont {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+}
+.drop-cont a {
+    color: wheat;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.btndrop:hover .drop-cont{
+    display:block;
+}
+
+.user-option {
+    background-image: url('../../content/icon/option.png');
+    background-size:contain;
+    height:20px;
+    width:20px;
+    position:absolute;
+    margin-right:24px;
+    right: 0;
+    background-position-y: center;
+    background-repeat:no-repeat;
+    border: none;
+    top: 14px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+}
+.user-option:hover{
+    background-color:#ccc;
+}
+.user-option:active{
+    background-color:#bbb;
+}
+.user-name{
+    height: 49px;
+    line-height: 49px;
+    margin-right:44px;
+    position: absolute;
+    right: 8px;
+    font-weight: bold;
+    display: flex;
+}
+.user-icon {
+    background-image: url('../../content/icon/avatar-default.png');
+    background-repeat:no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size:contain;
+    margin-right: 8px;
+    margin-top: 12px;
+}

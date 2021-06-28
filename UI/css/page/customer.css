@@ -1,0 +1,188 @@
+.page-header{
+    height: 40px;
+    display:flex;
+    width:100%;
+    align-items:center;
+}
+    .page-header .page-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .page-header .btnAddCustomer {
+        position: absolute;
+        right: 24px;
+        
+    }
+    .page-header .btnicon {
+        background-image: url('../../content/icon/add.png');
+        
+        padding-right:8px;
+        background-repeat:no-repeat;
+    }
+.page-toolbar{
+    height:40px;
+    width:100%;
+    border-radius: 4px;
+    border-inline: 0;
+    color: #bbb;
+    display:flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.table{
+    
+    
+}
+
+.table-paging{
+    height:56px;
+    left:24px;
+    right:24px;
+    position: absolute;
+    bottom: 0;
+    border-top: 4px solid #bbb;
+}
+.table-paging .paging-left{
+    position:absolute;
+    display: flex;
+    left: 16px;
+    height: 100%;
+    line-height: 56px;
+}
+    .table-paging .paging-center {
+        position: absolute;
+        height: 100%;
+        left: 199px;
+        right: 139px;
+        line-height: 56px;
+        text-align: center;
+        background-color: white;
+        display: flex;
+    }
+    .table-paging .paging-right {
+        position: absolute;
+        right: 16px;
+        border-top: none;
+        line-height: 56px;
+    }
+    .table-paging .paging-center .icon-preppage {
+        background-repeat: no-repeat;
+        height: 30px;
+        background-image: url('../../content/icon/btn-prev-page.svg');
+        background-position-y: center;
+        background-position-x: 0px;
+        width: 30px;
+        position: absolute;
+        left: 229px;
+        top: 13px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+    }
+        .table-paging .paging-center .icon-preppage:hover{
+            background-color:#ccc;
+        }
+        .table-paging .paging-center .icon-preppage:active {
+            background-color: #019160;
+        }
+        .table-paging .paging-center .icon-firstpage {
+            background-repeat: no-repeat;
+            
+            background-position-y: center;
+            background-position-x: 0px;
+            width: 30px;
+            height: 30px;
+            left: 183px;
+            top: 13px;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            cursor: pointer;
+            background-color: white;
+        }
+.icon-firstpage1 {
+    background-image: url('../../content/icon/btn-firstpage.svg');
+}
+    .table-paging .paging-center .icon-firstpage:hover {
+        background-color: #ccc;
+    }
+
+    .table-paging .paging-center .icon-firstpage:active {
+        background-color: #019160;
+    }
+    .table-paging .paging-center .paging{
+        cursor:pointer;
+        height:30px;
+        width:30px;
+        border:none;
+        border-radius:100%;
+        top: 13px;
+        border: 1px solid #ccc;
+        position: absolute;
+        line-height: 30px;
+        outline: none;
+    }
+    .table-paging .paging-center .paging:hover {
+        background-color: #ccc;
+    }
+
+    .table-paging .paging-center .paging:active {
+        background-color: #019160;
+    }
+.paging1 {
+    margin-left: calc(76px);
+}
+.paging2 {
+    margin-left: calc(106px + 10px);
+}
+.paging3 {
+    margin-left: calc(136px + 2*10px);
+}
+.paging4 {
+    margin-left: calc(166px + 3*10px);
+}
+
+
+
+.table-paging .paging-center .icon-nextpage {
+    height: 30px;
+    width: 30px;
+    background-image: url('../../content/icon/btn-next-page.svg');
+    background-repeat:no-repeat;
+    border:none;
+    border-radius:4px;
+    left: 445px;
+    top: 13px;
+    background-position-y: center;
+    outline: none;
+}
+.table-paging .paging-center .icon-nextpage:hover {
+    background-color: #ccc;
+}
+
+.table-paging .paging-center .icon-nextpage:active {
+    background-color: #019160;
+}
+.table-paging .paging-center .icon-lastpage {
+    height: 30px;
+    width: 30px;
+    background-image: url('../../content/icon/btn-lastpage.svg');
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 4px;
+    left: 490px;
+    top: 13px;
+    background-position-y: center;
+    outline: none;
+}
+
+    .table-paging .paging-center .icon-lastpage:hover {
+        background-color: #ccc;
+    }
+
+    .table-paging .paging-center .icon-lastpage:active {
+        background-color: #019160;
+    }
+

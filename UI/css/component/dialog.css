@@ -1,0 +1,214 @@
+.dialog .modal{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:0;
+    background-color: #000;
+    opacity: 0.5;
+}
+.dialog .dialog-box{
+    width: 600px;
+    height: 600px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#fff;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+}
+    .dialog .dialog-box .dia-header {
+        height: 56px;
+        width: 100%;
+        display: flex;
+        border-radius: 4px;
+    }
+        .dialog .dialog-box .dia-header .text {
+            line-height: 56px;
+            font-size: 20px;
+            font-family: 'GoogleSans-Bold';
+            PADDING-LEFT: 24px;
+        }
+        .dialog .dialog-box .dia-header .dia-header-x {
+            background-image: url('../../content/icon/x.svg');
+            background-size: 20px 20px;
+            background-repeat: no-repeat;
+            height: 30px;
+            width: 30px;
+            background-position: center;
+            outline: none;
+            right: 0;
+            position: absolute;
+            padding-right: 8px;
+            cursor: pointer;
+            border-top-right-radius: 4px;
+            border: none;
+        }
+        .dialog .dialog-box .dia-header .dia-header-x:hover{
+            background-color:#ccc;
+        }
+        .dialog .dialog-box .dia-header .dia-header-x:active{
+            background-color:#f65454;
+        }
+
+.dialog .dialog-box .dia-bottom{
+    height:56px;
+    width:100%;
+    background-color: #ddd;
+    position:absolute;
+    bottom:0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+    .dialog .dialog-box .dia-bottom .btn1{background-color: #ddd;height: 40px;width: 90px;border-radius: 4px;outline: none;border: none;position: absolute;right: 130px;top: 8px;cursor: pointer;}
+    .dialog .dialog-box .dia-bottom .btn2{height: 40px;width: 90px;position: absolute;right: 24px;top: 8px;background-color: #019160;border-radius: 4px;border: none;cursor: pointer;outline: none;display: flex;line-height: 40px;color: #fff;}
+        .dialog .dialog-box .dia-bottom .btn2 .icon-save {
+            background-image: url('../../content/icon/document-online.png');
+            height: 20px;
+            background-repeat: no-repeat;
+            width: 20px;
+            background-size: contain;
+            position: relative;
+            top: 10px;
+            left: 13px;
+        }
+            .dialog .dialog-box .dia-bottom .btn2 .text1{position: absolute;left: 43px;}
+    .dialog .dialog-box .dia-bottom .btn1:hover {
+                background-color: #ccc;
+            }
+    .dialog .dialog-box .dia-bottom .btn1:active {
+        background-color: #ddd;
+    }
+    .dialog .dialog-box .dia-bottom .btn2:hover {
+        background-color: #2FBE8E;
+    }
+    .dialog .dialog-box .dia-bottom .btn2:active{
+        background-color:#01b075
+    }
+
+.dialog .dia-body{
+    height:calc(600px - 2*56px);
+    width:100%;
+    
+}
+.dialog .dia-body .body1{
+    height:50%;
+    width:100%;
+    display:flex;
+}
+.dialog .dia-body .body1 .body1-1{
+    height:100%;
+    width:33.33%;
+    text-align:center;
+    }
+    .dialog .dia-body .body1 .body1-1 .img-kh {
+        height: 144px;
+        width: 144px;
+        background-image: url('../../content/img/default-avatar.jpg');
+        background-repeat:no-repeat;
+        background-size:contain;
+        border-radius:100%;
+        border: 1px solid #ccc;
+        margin-top:16px;
+        cursor: pointer;
+        margin-left:40px;
+    }
+        .dialog .dia-body .body1 .body1-1 .body1-text{margin-left: 24px;}
+.dialog .dia-body .body1 .body1-2{
+    height:100%;
+    width:33.33%;
+    text-align:left;
+    margin-left: 8px;
+    }    
+    .dialog .dia-body .body1 .body1-2 .body2-input{
+    width: 148px;
+    margin-bottom: 27px;
+    text-align: left;
+    padding-left: 16px;
+}
+    
+    .dialog .dia-body .body1 .body1-2 .body3-input {
+        width: 128px;
+        margin-bottom: 27px;
+        text-align: left;
+        padding-left: 16px;
+    }
+    .dialog .dia-body .body1 .body1-2 .asd {
+        background-image: url('../../content/icon/btn-next-page.svg');
+        background-size: 20px 20px;
+        height: 36px;
+        width: 22px;
+        margin-left: 159px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color: white;
+        position: absolute;
+        outline: none;
+        top: 158px;
+        right: 14px;
+        border: 1px solid #bbb;
+        border: none;
+        cursor: pointer;
+    }
+        .dialog .dia-body .body1 .body1-2 .asd:hover {
+            background-color: #ccc;
+        }
+        .dialog .dia-body .body1 .body1-2 .asd:active {
+            background-color: #bbb;
+        }
+    .dialog .dia-body .body1 .body1-2 .body2-img {
+        background-image: url('../../content/icon/document-online.png');
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-position: 147px center;
+    }
+        .dialog .dia-body .body2 {
+            height: 244px;
+            width: 600px;
+            background-color: aquamarine;
+            display:flex;
+            position: absolute;
+            bottom: 56px;
+        }
+.check{
+    height:40px;
+    width:156px;
+    display: inline-flex;
+}
+.check .radio {
+    background-image: url('../../content/icon/radio.svg');
+    background-repeat:no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    position: absolute;
+    background-size: contain;
+    top: 250px;
+    right: 54px;
+}
+    .check .radio1 {
+        background-image: url('../../content/icon/radio.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 250px;
+        margin-left: 10px;
+    }
+    .check .radio2 {
+        
+        background-image: url('../../content/icon/radio.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 250px;
+        margin-left: 8px;
+        right: 104px;
+    }
+.check .sex{
+    line-height:40px;
+    margin-left: 33px;
+}

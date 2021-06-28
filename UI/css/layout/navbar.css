@@ -1,0 +1,86 @@
+.navbar{
+    width:226px;
+    height:100vh;
+    border-right:1px solid #bbb;
+
+}
+
+    .navbar .logo-box{
+        width:100%;
+        height:48px;
+        display:flex;
+        background-repeat:no-repeat;
+        align-items: center;
+        background-position:center;
+       
+    }
+        .navbar .logo-box .toggle {
+            width: 24px;
+            height: 24px;
+            margin-left:16px;
+            cursor: pointer;
+            background-image: url('../../content/img/toggle.png');
+            background-size: contain;
+        }
+        .navbar .logo-box .logo-page {
+            margin-left: 10px;
+            background-repeat:no-repeat;
+            flex-shrink:0;
+            width: calc(100% - 50px);
+            height: 24px;
+            background-image: url('../../content/img/cukcuk-logo.png');
+            background-size: contain;
+            cursor: pointer;
+        }
+    .navbar .navbar-content {
+        width:100%;
+        //background-color: #e3e;
+        
+    }
+    .navbar .navbar-item{
+        height:44px;
+        align-items:center;
+        display:flex;
+        color:#000;
+        cursor:pointer;
+        background-repeat:no-repeat;
+        background-position:center;
+        text-decoration:none;
+    }
+    .navbar .navbar-item:hover{
+        background-color:#e5e5e5;
+        color:#000;
+    }
+    .navbar .navbar-item:focus{
+        background-color:#019160;
+        color:#fff;
+    }
+    .navbar .navbar-content .navbar-item-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 16px;
+        margin-right: 10px;
+        background-size: contain;
+        border-radius: 4px;
+    }
+.icon-dashboard {
+    background-image: url('../../content/icon/dashboard.png');
+}
+.icon-dic-employee {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+.icon-document-online {
+    background-image: url('../../content/icon/document-online.png');
+}
+.icon.option {
+    background-image: url('../../content/icon/option.png');
+}
+.icon-radio-checked {
+    background-image: url('../../content/icon/radio-checked.png');
+}
+.icon-setting {
+    background-image: url('../../content/icon/setting.png');
+}
+.icon-report {
+    background-image: url('../../content/icon/report.png');
+}
